@@ -24,7 +24,7 @@ import {
   USDC_BASE_GOERLI,
   USDC_BNB,
   USDC_BOB,
-  USDC_CYBER,
+  USDT_STABLE_TESTNET,
   USDC_GOERLI,
   USDC_INK,
   USDC_MAINNET,
@@ -156,8 +156,8 @@ export const USDC_ON = (chainId: ChainId): Token => {
       return USDC_ZERO
     case ChainId.BOB:
       return USDC_BOB
-    case ChainId.CYBER:
-      return USDC_CYBER
+    case ChainId.STABLE_TESTNET:
+      return USDT_STABLE_TESTNET
     case ChainId.SHAPE:
       return USDC_SHAPE
     case ChainId.INK:
@@ -180,5 +180,9 @@ export const USDC_ON = (chainId: ChainId): Token => {
 }
 
 export const WNATIVE_ON = (chainId: ChainId): Token => {
-  return WRAPPED_NATIVE_CURRENCY[chainId]
+  const wrappedNative = WRAPPED_NATIVE_CURRENCY[chainId as keyof typeof WRAPPED_NATIVE_CURRENCY]
+  if (!wrappedNative) {
+    throw new Error(`Chain id: ${chainId} not supported for wrapped native currency`)
+  }
+  return wrappedNative
 }
