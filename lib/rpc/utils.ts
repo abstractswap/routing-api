@@ -18,6 +18,8 @@ export function chainIdToNetworkName(networkId: ChainId): string {
       return 'avalanchec'
     case ChainId.BASE:
       return 'base'
+    case ChainId.STABLE_TESTNET:
+      return 'stable-testnet'
     default:
       return 'ethereum'
   }
@@ -140,6 +142,9 @@ export function generateProviderUrl(key: string, value: string): string {
       return tokens[0]
     }
     case 'WEB3_RPC_GATEWAY_60808': {
+      return tokens[0]
+    }
+    case 'WEB3_RPC_GATEWAY_2201': {
       return tokens[0]
     }
     case 'WEB3_RPC_GATEWAY_7560': {
