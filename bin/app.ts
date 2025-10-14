@@ -244,6 +244,8 @@ export class RoutingAPIPipeline extends Stack {
       'WEB3_RPC_GATEWAY_8453',
       // BOB
       'WEB3_RPC_GATEWAY_60808',
+      // STABLE_TESTNET
+      'WEB3_RPC_GATEWAY_2201',
       // SHAPE
       'WEB3_RPC_GATEWAY_360',
       // INK
