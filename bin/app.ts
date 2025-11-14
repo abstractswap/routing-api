@@ -244,6 +244,8 @@ export class RoutingAPIPipeline extends Stack {
       'WEB3_RPC_GATEWAY_8453',
       // BOB
       'WEB3_RPC_GATEWAY_60808',
+      // CYBER
+      'WEB3_RPC_GATEWAY_7560',
       // SHAPE
       'WEB3_RPC_GATEWAY_360',
       // INK
@@ -449,8 +451,8 @@ const jsonRpcProviders = {
   WEB3_RPC_GATEWAY_8453: process.env.WEB3_RPC_GATEWAY_8453!,
   // BOB
   WEB3_RPC_GATEWAY_60808: process.env.WEB3_RPC_GATEWAY_60808!,
-  // STABLE_TESTNET
-  WEB3_RPC_GATEWAY_2201: 'https://stable-jsonrpc.testnet.chain0.dev',
+  // CYBER
+  WEB3_RPC_GATEWAY_7560: process.env.WEB3_RPC_GATEWAY_7560!,
   // SHAPE
   WEB3_RPC_GATEWAY_360: process.env.WEB3_RPC_GATEWAY_360!,
   // INK

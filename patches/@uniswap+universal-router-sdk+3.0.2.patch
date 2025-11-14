@@ -55,14 +55,14 @@ index a7cdef8..1d349d4 100644
 +    address: '0x346239972d1fa486FC4a521031BC81bFB7D6e8a4',
 +    creationBlock: 5369968
 +  }, _routerConfigs21)
-+}, _CHAIN_CONFIGS[2201] = {
-+  weth: '0x9bAAf2335EC94653D27160b26277a7b50f67C029',
++}, _CHAIN_CONFIGS[7560] = {
++  weth: '0x4200000000000000000000000000000000000006',
 +  routerConfigs: (_routerConfigs22 = {}, _routerConfigs22[exports.UniversalRouterVersion.V1_2] = {
-+    address: '0x6b7bb8AAF70a32518e3A06A8dF2173D268364a3f',
-+    creationBlock: 28624816
++    address: '0xbc1287f5af439c7d6dcfa0bdcbb30d81725ffda0',
++    creationBlock: 9622699
 +  }, _routerConfigs22[exports.UniversalRouterVersion.V2_0] = {
-+    address: '0x6b7bb8AAF70a32518e3A06A8dF2173D268364a3f',
-+    creationBlock: 28624816
++    address: '0xbc1287f5af439c7d6dcfa0bdcbb30d81725ffda0',
++    creationBlock: 9622699
 +  }, _routerConfigs22)
 +}, _CHAIN_CONFIGS[360] = {
 +  weth: '0x4200000000000000000000000000000000000006',
@@ -222,14 +222,14 @@ index 53a5591..a5d01ae 100644
 +    address: '0x346239972d1fa486FC4a521031BC81bFB7D6e8a4',
 +    creationBlock: 5369968
 +  }, _routerConfigs21)
-+}, _CHAIN_CONFIGS[2201] = {
-+  weth: '0x9bAAf2335EC94653D27160b26277a7b50f67C029',
++}, _CHAIN_CONFIGS[7560] = {
++  weth: '0x4200000000000000000000000000000000000006',
 +  routerConfigs: (_routerConfigs22 = {}, _routerConfigs22[UniversalRouterVersion.V1_2] = {
-+    address: '0x6b7bb8AAF70a32518e3A06A8dF2173D268364a3f',
-+    creationBlock: 28624816
++    address: '0xbc1287f5af439c7d6dcfa0bdcbb30d81725ffda0',
++    creationBlock: 9622699
 +  }, _routerConfigs22[UniversalRouterVersion.V2_0] = {
-+    address: '0x6b7bb8AAF70a32518e3A06A8dF2173D268364a3f',
-+    creationBlock: 28624816
++    address: '0xbc1287f5af439c7d6dcfa0bdcbb30d81725ffda0',
++    creationBlock: 9622699
 +  }, _routerConfigs22)
 +}, _CHAIN_CONFIGS[360] = {
 +  weth: '0x4200000000000000000000000000000000000006',
